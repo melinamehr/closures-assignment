@@ -10,14 +10,14 @@
 //
 // shout();
 
-var message = "Up here!";
-
-function shout(message) {
-  console.log(message);
-}
-
-shout("Down below!")
+// var message = "Up here!";
 //
+// function shout(message) {
+//   console.log(message);
+// }
+//
+// shout("Down below!")
+// //
 // var muffins = 'two dozen';
 // var purchasedMuffins;
 //
@@ -41,18 +41,55 @@ shout("Down below!")
 //
 // doChores(); // calling doChores(), which then calls reportActivity()
 
-var letter;
-var contents = 'Looking for gold';
+// var letter;
+// var contents = 'Looking for gold';
+//
+// function getMail() {
+//
+//   function changeContents() {
+//     var contents = 'Struck it rich!';
+//   }
+//
+//   changeContents();
+//   return contents;
+// }
+//
+// letter = getMail();
+// console.log(letter);
 
-function getMail() {
+// var decision;
+//
+// function firstIdea() {
+//   var decision = 'Buy a new car';
+//   return decision;
+// }
+//
+// function secondIdea() {
+//   console.log(decision);
+// }
+//
+// firstIdea();
+// secondIdea();
 
-  function changeContents() {
-    var contents = 'Struck it rich!';
-  }
+// EXERCISE TWO //
 
-  changeContents();
-  return contents;
+// function buildHouse(address) {
+//   // ... house gets built
+//   return 'Building house at ' + address;
+// }
+// address = buildHouse('123 Happy St.');
+// console.log(address);
+
+// var smoothie = 'strawberry banana';
+//
+// var determined = false;
+// if (determined) {
+//   var smoothie = 'strawberry banana';
+// }
+// console.log(smoothie);
+
+for (var index = 0; index < 5; index++) {
+  // ...
 }
 
-letter = getMail();
-console.log(letter);
+console.log(index);

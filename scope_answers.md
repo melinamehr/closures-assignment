@@ -1,10 +1,10 @@
-<!-- Exercise 1 -->
+** EXERCISE 1 **
 
 1. Outputs 'welcome' because lastWord was defined as 'welcome' before the console.log
 
 2. Outputs 'up here!' because the message variable runs through the function shout()
 
-3.
+3. Outputs 'down below' because shout(message) function closes before shout(down below) is called.
 
 4. Outputs 2 dozen; var muffins and purchasedMuffins are global and get run thru the getMuffins function
 
@@ -12,4 +12,32 @@
 
 6. Outputs 'looking for gold' because getMail function is run and var contents = 'looking for gold' is a global variable. var contents = 'struck it rich' will only output if changeContents() is run.
 
-7.
+7. Undefined because both functions close before they are called upon.
+
+** EXERCISE 2 **
+
+1. assigning address as the buildHouse function
+
+function buildHouse(address) {
+  // ... house gets built
+  return 'Building house at ' + address;
+}
+address = buildHouse('123 Happy St.');
+console.log(address);
+
+2. Moving var smoothie outside if the function allows it to print whether the function is true or false
+
+var smoothie = 'strawberry banana';
+
+var determined = false;
+if (determined) {
+  var smoothie = 'strawberry banana';
+}
+console.log(smoothie);
+
+
+3.
+
+4.
+
+5.

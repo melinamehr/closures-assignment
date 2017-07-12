@@ -36,8 +36,20 @@ if (determined) {
 console.log(smoothie);
 
 
-3.
+3. Putting the loop inside a function that closes before console is called upon
 
-4.
+function arrayLoop() {
+  for (var index = 0; index < 5; index++) {
+  // ...
+  }
+}
+console.log(index);
 
-5.
+
+4. Changed into a for loop so that console.log will run
+
+var items = ['glasses', 'toothpaste', 'wallet'];
+for (var i = 0; i < items.length; i++) {
+  var lastItem = items[i];
+}
+console.log(lastItem);
